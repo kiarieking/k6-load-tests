@@ -53,11 +53,11 @@ export default function(){
             const body = JSON.parse(authResponse)
 
             if(body.result && body.result.uid){
-                isloggedon=true
+                isloggedon = true
             }
         }
         catch{
-            isloggedon=false
+            isloggedon = false
         }
     }
 
